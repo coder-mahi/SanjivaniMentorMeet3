@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile_menu"
+            android:icon="@drawable/ic_person_outline"
+            android:title="My Profile" />
+        <item
+            android:id="@+id/rate_menu"
+            android:icon="@drawable/ic_rate_review"
+            android:title="Rate &amp; Review Application" />
+        <item
+            android:id="@+id/reset_password_menu"
+            android:icon="@drawable/ic_password"
+            android:title="Reset Password" />
+        <item
+            android:id="@+id/share_menu"
+            android:icon="@drawable/ic_share"
+            android:title="Share App" />
+        <item
+            android:id="@+id/logout_menu"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out" />
+    </group>
+</menu>

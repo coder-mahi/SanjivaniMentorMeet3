@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/student_dashboard_txt"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:layout_margin="30dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/allocatedMentorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Your Mentor Name:"
+            android:textStyle="bold"
+            android:textAlignment="center" />
+
+        <Button
+            android:id="@+id/personal_Details"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="30dp"
+            android:backgroundTint="@color/primaryBlue"
+            android:drawableRight="@drawable/ic_next"
+            android:drawableLeft="@drawable/personal_details"
+            android:drawablePadding="8dp"
+            android:text="Personal Details"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textAlignment="viewStart"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/profile_courseDetails"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/primaryBlue"
+            android:drawableRight="@drawable/ic_next"
+            android:drawableLeft="@drawable/course_details"
+            android:drawablePadding="8dp"
+            android:text="Course Details"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textAlignment="viewStart"
+            android:textStyle="normal" />
+        <Button
+            android:id="@+id/upload_certificate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="30dp"
+            android:backgroundTint="@color/primaryBlue"
+            android:drawableRight="@drawable/ic_next"
+            android:drawableLeft="@drawable/upload_certificates"
+            android:drawablePadding="8dp"
+            android:text="Upload Certificates"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textAlignment="viewStart"
+            android:textStyle="normal" />
+    </LinearLayout>
+</LinearLayout>

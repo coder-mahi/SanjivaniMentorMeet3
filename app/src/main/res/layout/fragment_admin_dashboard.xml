@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminDashboardFragment">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/admin_dashboard_txt"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        android:layout_margin="30dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+        <Button
+            android:id="@+id/addBatch"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="ADD BATCH"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/ic_batch"
+            android:drawableRight="@drawable/ic_next"
+            android:contentDescription="add mentees"
+            />
+
+        <Button
+            android:id="@+id/viewMentors"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="VIEW MENTORS"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/ic_mentors"
+            android:drawableRight="@drawable/ic_next"
+            android:contentDescription="add mentors"
+            />
+
+        <Button
+            android:id="@+id/fetchStudent"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:text="FETCH STUDENTS"
+            android:textSize="18dp"
+            android:drawableLeft="@drawable/personal_details"
+            android:drawableRight="@drawable/ic_next"
+            android:contentDescription="add "
+            />
+    </LinearLayout>
+</LinearLayout>

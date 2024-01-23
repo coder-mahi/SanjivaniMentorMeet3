@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:orientation="vertical"
+    android:background="@color/primaryBlue"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp"
+    android:gravity="bottom">
+
+
+        <ImageView
+            android:id="@+id/header_profile_icon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/user_profile_image"
+            tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/header_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shinde Mahesh T."
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/header_enrollment_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2100340265"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+    <TextView
+        android:id="@+id/header_login_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:paddingRight="10dp"
+        android:text="Logged In As :"
+        android:textAlignment="textEnd"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText,TextSizeCheck" />
+
+</LinearLayout>

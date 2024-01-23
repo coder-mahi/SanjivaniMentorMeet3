@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Student Mentoring App2</string>
+    <string name="mentorIncharge">MENTOR INCHARGE / HOD</string>
+    <string name="mentor">MENOTR</string>
+    <string name="student">STUDENT</string>
+    <string name="choosePossition">SIGN IN AS</string>
+    <!--    Drawer open close-->
+    <string name="drawerOpen">Open navigation drawer</string>
+    <string name="drawerClose">Close navigation drawer</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_batch">ADD BATCH</string>
+    <string name="enter_batch_id">enter batch ID</string>
+    <string name="admin">ADMIN</string>
+    <string name="admin_dashboard_txt">ADMIN DASHBOARD</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="mentor_dashboard_txt">MENTOR DASHBOARD</string>
+    <string name="add_mentee_text">MENTEE INFORMATION</string>
+    <string name="student_dashboard_txt">STUDENT DASHBOARD</string>
+    <string name="personal_details">PERSONAL DETAILS</string>
+</resources>

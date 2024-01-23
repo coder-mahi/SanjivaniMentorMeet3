@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textSize="30dp"
+        android:text="21_22"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/batch"
+        android:background="@drawable/custom_batch_recycle"
+        android:gravity="center"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:layout_marginRight="3dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/fetchData"
+            android:text="access data"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:id="@+id/dropTable"
+            android:layout_marginLeft="3dp"
+            android:layout_height="wrap_content"
+            android:text="delete batch"/>
+    </LinearLayout>
+
+</LinearLayout>

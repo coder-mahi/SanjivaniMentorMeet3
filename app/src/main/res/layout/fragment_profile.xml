@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/primaryBlue">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:src="@drawable/user_profile_image"/>
+        <TextView
+            android:id="@+id/profile_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="SHINDE MAHESH TULSHIRAM"
+            android:textSize="18dp"
+            android:textStyle="italic|bold"
+            android:textColor="@color/white"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/profile_emailID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="maheshshinde9100@gmail.com"
+            android:textSize="16dp"
+            android:textStyle="italic|normal"
+            android:textColor="@color/white"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/profile_ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2100340265"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="italic|bold"
+            android:textAlignment="center"/>
+
+        <ImageButton
+            android:id="@+id/edit_profile"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_gravity="end"
+            android:background="@color/primaryBlue"
+            android:contentDescription="@string/edit_profile"
+            android:src="@drawable/edit_profile"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="225dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/personal_Details"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="30dp"
+            android:backgroundTint="@color/primaryBlue"
+            android:drawableRight="@drawable/ic_next"
+            android:drawableLeft="@drawable/personal_details"
+            android:drawablePadding="8dp"
+            android:text="Personal Details"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textAlignment="viewStart"
+            android:textStyle="normal" />
+
+        <Button
+            android:id="@+id/profile_courseDetails"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:backgroundTint="@color/primaryBlue"
+            android:drawableRight="@drawable/ic_next"
+            android:drawableLeft="@drawable/course_details"
+            android:drawablePadding="8dp"
+            android:text="Course Details"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textAlignment="viewStart"
+            android:textStyle="normal" />
+        <Button
+            android:id="@+id/upload_certificate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="30dp"
+            android:backgroundTint="@color/primaryBlue"
+            android:drawableRight="@drawable/ic_next"
+            android:drawableLeft="@drawable/upload_certificates"
+            android:drawablePadding="8dp"
+            android:text="Upload Certificates"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:textAlignment="viewStart"
+            android:textStyle="normal" />
+    </LinearLayout>
+</FrameLayout>
